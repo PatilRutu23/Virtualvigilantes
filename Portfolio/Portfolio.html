@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        .first {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            }
+
+            td{
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            }
+
+            th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+            }
+
+            tr:nth-child(even) {
+            background-color: #dddddd;
+            }
+
+            .second{
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            }
+            
+    </style>
+    <style>
+        .Centered {
+          display: flex;
+          justify-content: center; /* Center horizontally */
+          align-items: center; /* Center vertically */
+        }
+    </style>
+    <style>
+        .sklogo{
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            align-items: center; /* Center items horizontally */          
+            height: 100%;
+            }  
+            .sklogo img:nth-child(3){
+                align-self: flex-start; /* Align the third image to the left */
+            } 
+            .sklogo img:nth-child(2){
+                padding-top: 5%;
+            } 
+    </style>
+    <style>
+        .img-container{
+            display: flex;
+        }
+        .slogo{
+            padding-top: 15%;
+            width: 55%;
+            height: 70%;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Rutuja Patil</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#personalInfo">Personal Info</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+<div class="container">
+    <section id="SideBar" class="column">
+        <div class="SideBar">
+            <img src="https://i.pinimg.com/736x/20/c1/f8/20c1f863f10fcc8c72d2ec38860b8b98.jpg" width="100%">
+        </div>
+
+        <div class="Centered">
+            <img src="https://img.freepik.com/premium-vector/portrait-elegant-business-woman-with-arms-crossed-isolated-vector-illustration_126609-505.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais" width="50%" height="30%" alt="Centered Image">
+        </div>
+
+        <div class="sklogo">
+            <img src="https://www.pngitem.com/pimgs/m/519-5191896_pofolio-website-html-css-javascript-logo-png-transparent.png" width="100%"  height="15%" class="image">
+            <img src="https://st2.depositphotos.com/1813786/12508/v/950/depositphotos_125087888-stock-illustration-project-icons-and-elements.jpg" width="70%" class="image">
+            <div class="img-container">
+                <img src="https://images.herzindagi.info/image/2022/Dec/easy-tips-to-clean-water-tank.jpg" width="45%"  >
+                <img src="./water.jpg" width="40%" class="slogo">
+            </div>
+            <img src="https://miro.medium.com/v2/resize:fit:1400/1*WwhYk3DvHax06ue2gc6-xQ.png" width="80%" class="image">
+            <img src="https://qph.cf2.quoracdn.net/main-qimg-e2409a779c535e49bd1d4e96f069eb05" width="90%" height="20%" >
+        </div>
+    </section>
+
+    <section class="column">
+        <header>
+            <h1 id="wel">Welcome to My Portfolio</h1>
+            <p>A showcase of my skills, projects, and achievements</p>
+        </header>
+
+        <section id="about">
+            <h2 id="wel">About Me</h2>
+            <div class="about-content">
+                <p>Motivated MCA student in the final year with a strong foundation in programming languages(C,C++,Java,Html,CSS,JavaScript).Seeking a responsible position in an organization, which gives me a chance to 
+                    improve knowledge, enhance my skills and enable me to strive towards the 
+                    overall development of the organization.</p>
+            </div>
+        </section>
+
+        <section id="personalInfo">
+            <h2 id="wel">Personal Information</h2>
+            <table id="first">
+                <tr>
+                    <th>Name:</th>
+                    <td>Rutuja Nagesh Patil</td>
+                </tr>
+                <tr>
+                    <th>Date of Birth:</th>
+                    <td>23-04-2001</td>
+                </tr>
+                <tr>
+                    <th>Father’s Name:</th>
+                    <td>Nagesh Baliram Patil</td>
+                </tr>
+                <tr>
+                    <th>Marital Status:</th>
+                    <td>Unmarried</td>
+                </tr>
+                <tr>
+                    <th>Contact:</th>
+                    <td><b> 9403006360</b></td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td>rutujapail2381@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>Address:</th>
+                    <td>Ekvira Niwas, Datta Digamber colony-1, Karve Nager, Pune – 52.</td>
+                </tr>
+                <tr>
+                    <th>Nationality:</th>
+                    <td>Indian</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="skills">
+            <h2 id="wel">Skills</h2>
+            <table style="width:100%" id="second">
+                <tr>
+                    <td style="text-align: center;">HTML</td>
+                    <td style="text-align: center;">CSS</td>
+                    <td style="text-align: center;">JavaScript</td>
+                    <td style="text-align: center;">Java</td>
+                </tr>
+            </table>
+        </section>
+    
+        <section id="Highlight">
+            <h2 id="wel">Highlights</h2>
+            <ul>
+                <li>Experience in application development using C, C++, Java.</li>
+                <li>Proficient in HTML and CSS for Web Development.</li>
+                <li>Good communication and teamwork skills.</li>
+                <li>Quick learner with a passion for staying updated with the latest technologies.</li>
+                <li>Experience in algorithm designing.</li>
+                <li>Good analytical and problem-solving skills.</li>
+            </ul>    
+        </section>
+
+        <section id="projects">
+            <h2 id="wel">Projects</h2>
+            <div class="project">
+                <h3>Water Tank Cleaning Website </h3>
+                <h4>Project description:</h2>
+                <ul id="pro">
+                    <li> Designed and developed a live website for water tank cleaning services.</li>
+                    <li> Utilized HTML and CSS for creating a visually appealing and responsive user interface. </li>
+                    <li> Integrated a database system to manage customer bookings and service records. </li>
+                    <li> Focused on creating an engaging and responsive user interface or customers. </li>
+                    <li> The project showcases proficiency in web development and front end design. </li>
+                    <li> Future plans to enhance the project by adding a database for improved data management. </li>
+                </ul>
+                <a href="./home.html">Live Demo of the Project</a>
+            </div>
+            <hr/>
+            <div>
+                <h3 id="wel">Chat messenger with log facility:</h3>
+                <h4>Technology: Java Programming</h4>
+                <h4>Project description:</h4>
+                <ul id="pro">
+                    <li>This project provides the chatting facility for pear to pear 
+                        communication.</li>
+                    <li>We use java socket programming to perform the text based chatting.</li>
+                    <li>We also maintain the log which contains all the chatting details with the 
+                        periodic fashion.</li>
+                    <li>This application is platform & architecture independent.</li>
+                </ul>
+                <a href="./Client3.java">Source code 1</a>
+                <a href="./Server3.java">Source code 1</a>
+                <h4>Output:</h4>
+                <img src="./ServerClient.png" height="200"/>
+            </div>
+            <hr/>
+
+            <div>
+                <h3 id="wel">Interactive Photo Gallery Project</h3>
+                <h4>Project description </h4>
+                <p>Created an interactive photo gallery using HTML, CSS, and JavaScript. The gallery allows users to view a collection of images with a zoom effect, lightbox functionality, and smooth transitions between photos. Implemented a responsive design for optimal viewing on various devices and added creative hover effects for enhanced user experience. Navigation controls for previous and next images provide a seamless browsing experience. This project showcases the ability to combine front-end technologies to build engaging and responsive web features.</p>
+                <a href="./Gallery/Gallery.html">Live Demo</a>
+            </div>
+            <hr/>
+        </section>
+
+        <section id="activities">
+            <h3 id="wel">Extracurricular Activities</h3>
+            <ul>
+                <li>MS-Office: Proficient in using Microsoft offce with a remarkable score of 94, including Word,PowerPoint,Excel.</li>
+                <li>Typing Skills: Typing speed of 30(wpm) with a score of 61,acquired through dedicated practice in a typing class.</li>
+                <li>MSCIT: Successfully completed the MSCIT course with an impressive score of 70.</li>
+                <li>Demonstrated commitment by participating in coding competition in college. The name o competition is C champion.</li>
+            </ul>    
+        </section>
+
+        <section id="contact">
+            <h2 id="wel">Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </section>
+</div>
+
+        <footer>
+            <p>&copy; 2023 Rutuja Patil</p>
+        </footer>
+
+        <script data-two_delay_id="two_654109182b8fc" data-two_delay_src="script.js"></script>
+    </body>
+</html>

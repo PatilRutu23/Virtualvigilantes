@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            width: 100%;
+        }
+
+        .column {
+            flex: 1;
+            padding: 100px;
+        }
+
+        /* Style each column as you like */
+        .column:nth-child(1) {
+            background-color: #f2f2f2;
+            padding: 50px;
+
+        }
+
+        .column:nth-child(2) {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <h1>Left Column</h1>
+            <p>This is the content for the left side of the page.</p>
+        </div>
+        <div class="column">
+            <h1>Right Column</h1>
+            <p>This is the content for the right side of the page.</p>
+        </div>
+    </div>
+</body>
+</html>

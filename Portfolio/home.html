@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color:#00004d;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #b8b894;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #00001a;
+  color: white;
+}
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+/* Fake image, just for this example */
+.fakeimg {
+  background-color:#000066;
+  color: white;
+  padding: 20px;
+}
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+  <img src="http://www.dhonecleaners.com/img/02.jpg" style="width:100%"> 
+<font color="#001133"><h1>Raj Cleaners & Fasters</h1></font>
+<h3><font color="blue">Call Now</font> - 9822490155 / 9423207155 </h3>
+
+<div class="navbar">
+  <a href="home.html" class="active">Home</a>
+  <a href="services.html">Services</a>
+  <a href="product.html">Products</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="clients.html">Clients</a>
+  <a href="contact.html" class="right">Contact Us</a>
+</div>
+<font color="#001133"><h2>About Us</h2></font>
+<font color="#001133"><h4>Welcome To Raj Cleaners</h4></font>
+
+<p>Our water tank cleaning services in Pune is a solid answer for expelling contaminations, for example, sand, mud, green growth, viruses, infections, and microorganisms from the tank. These administrations are perfect for underground and overhead water tanks can be availed at the business at affordable cost. We utilize modern machines and gear including jet pressure stream cleaners, UV radiation, bio-sanitizers, and so on to guarantee the end of the considerable number of contaminants from the tank.</p>
+
+
+<font color="red"><h3><center>ARE YOU CONCERNED ABOUT YOUR HEALTH? IF YES,
+HOW MANY TIMES YOU CLEAN YOUR WATER STORAGE TANK...!</center></h3></font>
+
+<p><font color="#001133"><b>Remember</b></font> consitent negligence and lack of awareness about your water tank may lead to the bactral groth, polutant mud and sludge further giving birth to water borne diseases viz cholera, jaundice, Dengue, Typhoid, abdominal and skin diseases into your home.</p>
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="http://www.dhonecleaners.com/images/bannerpart1.jpg" style="width:100%">
+     
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="http://www.dhonecleaners.com/images/bannerpart3.jpg" style="width:100%">
+      
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="http://www.dhonecleaners.com/images/gal2.jpg" style="width:79%">
+     
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="http://www.dhonecleaners.com/images/gal1.jpg" style="width:79%">
+      
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+<div class="row">
+  <div class="side">
+    <div class="fakeimg" style="height:60px;"><center>495+
+Our Happy Customers..........495+
+Our Happy Customers</center></div><br>
+    <div class="fakeimg" style="height:60px;"><center>30+
+Companies / Industrial Customer’s____30+
+Companies / Industrial Customer’s</center></div><br>
+    <div class="fakeimg" style="height:60px;"><center>* * * * * 4.9/5
+Average Rating’s From Customer's * * * * *</center></div>
+  </div>
+
+<div class="content">
+  <img src="http://www.dhonecleaners.com/img/04.jpg" style="width:100%">
+<font color="#001133"><h2>Our Vision</h2></font>
+  
+  <p>
+Raj Cleaners has a vision to become one of the most trusted and sought after organization engaged in mechanized water tank cleaning services in Pune. Our company help customers to get cleaner, safer water and 100% bacteria free tank.
+</p>
+ 
+
+<div class="footer">
+<font color="#001133"><center><h4>Call Us - 9822490155 / 9423207155</h4></center></font>
+
+  <hp>Water Tank Cleaning, Residential Water Tank Cleaning, Underground Water Tank Cleaning, Overhead Water Tank Cleaning, Schools Water Tank Cleaning, College's Water Tank Cleaning,
+Hospitals Water Tank Cleaning, Hotel Water Tank Cleaning, Swimming Pool Cleaning, Industrial Water Tank Cleaning.</p>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

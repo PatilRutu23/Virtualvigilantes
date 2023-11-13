@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #00004d;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #b8b894;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #00001a;
+  color: white;
+}
+
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background:#cccccc;
+}
+
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+
+
+  <font color="#001133"><h1>Raj Cleaners & Fasters</h1></font>
+<h3><font color="blue">Call Now</font> - 9822490155 / 9423207155 </h3>
+
+</div>
+<div class="navbar">
+  <a href="home.html" class="active">Home</a>
+  <a href="services.html">Services</a>
+  <a href="product.html">Products</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="clients.html">Clients</a>
+  <a href="contact.html" class="right">Contact Us</a>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFt3VvnPm0ZPKnzCpW_FZsotPDl_qroDJGDiMCbfm1uk5JctNOtg&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjk_VxFT2ZTKddzIqI31dXR1F-qCfxLLV8n0UGKYUmSvwK9_Pl&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEgSoBalGDgPoNE2uonLw7NYPlx8L0jgfnP36-OLRSuoB1_HwPiA&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-AaipbnhB--c9QUPD0ZKUJ4v4lWQpwhv_56cphoffIikiJ9a9&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbB_KnJKLdZGRQmcN8jggoAFlTyNGVdA4mws6bPM6SP5s9ZNjj8Q&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbtZuKE_tWBOtBDNMGkrW_YarwbLunHaNubUH9NPsZmg14YAzI&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPKfRJvaIO9pdS_JGWjjbvlRiZrrOWGaTKrJkb-8XGT2VEBxUtLQ&s" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOREov7Hjc2SkF2Jybk2RRd3LsKCq6ld5PW3V0TLIaNqXoy7s&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3gTgLQYlB4r5z_rTPcQI_3zN9vIddD4zvv0mcJi4P7INFIswkgw&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFt3VvnPm0ZPKnzCpW_FZsotPDl_qroDJGDiMCbfm1uk5JctNOtg&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhgPw8yZQWc9_2VvApIX8QS1oduRuKwU_llDoG0HICPJAX9ktBXg&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjk_VxFT2ZTKddzIqI31dXR1F-qCfxLLV8n0UGKYUmSvwK9_Pl&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOREov7Hjc2SkF2Jybk2RRd3LsKCq6ld5PW3V0TLIaNqXoy7s&s" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFt3VvnPm0ZPKnzCpW_FZsotPDl_qroDJGDiMCbfm1uk5JctNOtg&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjk_VxFT2ZTKddzIqI31dXR1F-qCfxLLV8n0UGKYUmSvwK9_Pl&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEgSoBalGDgPoNE2uonLw7NYPlx8L0jgfnP36-OLRSuoB1_HwPiA&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-AaipbnhB--c9QUPD0ZKUJ4v4lWQpwhv_56cphoffIikiJ9a9&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbB_KnJKLdZGRQmcN8jggoAFlTyNGVdA4mws6bPM6SP5s9ZNjj8Q&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbtZuKE_tWBOtBDNMGkrW_YarwbLunHaNubUH9NPsZmg14YAzI&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPKfRJvaIO9pdS_JGWjjbvlRiZrrOWGaTKrJkb-8XGT2VEBxUtLQ&s" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOREov7Hjc2SkF2Jybk2RRd3LsKCq6ld5PW3V0TLIaNqXoy7s&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3gTgLQYlB4r5z_rTPcQI_3zN9vIddD4zvv0mcJi4P7INFIswkgw&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFt3VvnPm0ZPKnzCpW_FZsotPDl_qroDJGDiMCbfm1uk5JctNOtg&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhgPw8yZQWc9_2VvApIX8QS1oduRuKwU_llDoG0HICPJAX9ktBXg&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjk_VxFT2ZTKddzIqI31dXR1F-qCfxLLV8n0UGKYUmSvwK9_Pl&s" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOREov7Hjc2SkF2Jybk2RRd3LsKCq6ld5PW3V0TLIaNqXoy7s&s" style="width:100%">
+  </div>
+</div>
+<div class="footer">
+<center><h4>Call Us - 9822490155 / 9423207155</h4></center>
+  <hp>Water Tank Cleaning, Residential Water Tank Cleaning, Underground Water Tank Cleaning, Overhead Water Tank Cleaning, Schools Water Tank Cleaning, College's Water Tank Cleaning,
+Hospitals Water Tank Cleaning, Hotel Water Tank Cleaning, Swimming Pool Cleaning, Industrial Water Tank Cleaning.</p>
+</div>
+</body>
+</html>
